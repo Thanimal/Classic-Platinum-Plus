@@ -496,7 +496,7 @@
     <draw_ops name="title_unfocused">
         <clip x="Pad" y="0" width="width - (Pad * 2)" height="height"/>
         <title
-            color="blend/gtk:text[NORMAL]/#777777/0.5"
+            color="blend/gtk:text[NORMAL]/#808080/0.8"
             x="((width - title_width) / 2) `max` 0"
             y="0"/>
     </draw_ops>
@@ -715,8 +715,8 @@
             y="3"
             width="width - 6"
             height="height - 6">
-            <color value="shade/gtk:base[NORMAL]/0.8"/>
-            <color value="shade/gtk:base[NORMAL]/1.2"/>
+            <color value="shade/gtk:base[NORMAL]/0.9"/>
+            <color value="shade/gtk:base[NORMAL]/1.1"/>
         </gradient>
     </draw_ops>
 
